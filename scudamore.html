@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        
+        <!--Don't forget to fill these out!-->
+        <title>Lorica | Scudamore Leggings</title>
+        <meta name="description" content="Lorica | Don Your Armor" />
+        
+        
+        <!--Links to the main Style Sheet-->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+        <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+        <script src="js/modernizr.js"></script>
+        
+        <!-- jQuery library (served from Google) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script src="jquery.bxslider.min.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="jquery.bxslider.css" rel="stylesheet" />
+        
+        <!--Makes the site so it won't scale down on small devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    
+    <body>
+        
+        <div class="wrapper">
+
+            <header>
+                <a href="#" onclick="toggle_visibility('menu');">
+                    <nav class="menu_button nodesk">&#x2261;</nav></a>
+            
+                <nav id="menu">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="#"><li>OUR TALE</li></a>
+                        <a href="scudamore.html"><li>ARMORY</li></a>
+                        <a href="checkout.html"><li>INVENTORY</li></a>
+                    </ul>
+                </nav>
+           <h1 class="logo"><a href="index.html">LORICA</a></h1>
+
+            </header>
+            
+            <script type="text/javascript">
+			$(document).ready(function(){
+			$('.bxslider').bxSlider();
+			});
+			</script>
+			
+				<ul class="bxslider">
+					<li><img class="scudamore" img src="assets/images/scudamore.gif" /></li>
+					<li><img class="scudamore" img src="assets/images/scudamore1.gif" /></li>
+			      </ul>
+            
+            <h2>SCUDAMORE LEGGINGS</h2>
+            
+            <h2>$68.00</h2>
+            
+            <p class="description">Our Scudamore leggings are based on the field armor of Sir James Scudamore, currently on view at the The Metropolitan Museum of Art, New York. Sir James was a prominent Elizabethan soldier, courtier, and enthusiastic jouster; he was praised in Edmund Spenser’s Faerie Queene (published 1596) as an example of chivalry personified. Channel knightly nobility in our take on this gorgeous armor!
+            
+            <p>8% Spandex, 92% Recycled Polyester | Made in the USA</p>
+            <p>Select your size:</p>
+            
+            
+            <div class="size">
+                <h5>XS</h5>
+                <h5>S</h5>
+                <h5>M</h5>
+                <h5>L</h5>
+                <h5>XL</h5>
+                <h5>XXL</h5>
+            </div>
+            
+            <select> 
+                <option value="" selected="selected">Select Quantity...</option> 
+                <option value="/">1</option> 
+                <option value="/">2</option> 
+                <option value="/">3</option> 
+                
+            <a href="checkout.html"><input type="Button" input value="ADD TO INVENTORY"></a>
+            </select> 
+            
+            <footer>
+                
+                <h3>© 2017 | LORICA CLOTHING</h3>
+                <h3>55 Main Street</h3>
+                <h3>Washington, D.C., USA</h3>
+            
+            <a href="https://www.facebook.com/loricaclothing/"><img class="media" alt="facebook" src="assets/images/facebook.png"></a>
+            <a href="https://www.instagram.com/loricaclothing/"><img class="media" alt="facebook" src="assets/images/instagram.png"></a>
+            
+            </footer> 
+            
+        </div>
+        
+             <!-- Place this script at the end of your body -->
+            <script type="text/javascript">
+        <!--
+            function toggle_visibility(id) {
+               var e = document.getElementById(id);
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+        //-->
+        </script>
+        
+    </body>
+    
+</html>
