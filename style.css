@@ -252,10 +252,13 @@ footer{
     margin-top:30px;
 }
 
-a:link {
-    text-decoration:none;
+a {
+    color:#eaeff8;
 }
 
+a:link{
+    color:#eaeff8;
+}
 
 /*media query*/
 /* media query for tablet */
@@ -337,7 +340,7 @@ header{
     width:31.91489361702128%;
     margin:0 auto;
     margin-top: 330px;
-    margin-left:29%;
+    margin-left:8.5%;
     background-color:#686c71;
     color:#eaeff8;
 }
