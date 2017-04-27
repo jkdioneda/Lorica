@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<!--make new tags for IE -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript">
+			document.createElement("nav");
+			document.createElement("header");
+			document.createElement("footer");
+			document.createElement("section");
+			document.createElement("aside");
+			document.createElement("article");
+		</script>
+		<![endif]-->
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		
+		<title>Meow-fest 2012</title>
+		
+		<!-- link to your main style sheet -->
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		
+		<!-- allow for mobile viewing -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+		
+		<!-- jQuery library (served from Google) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script src="jquery.bxslider.min.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="jquery.bxslider.css" rel="stylesheet" />
+
+
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="logo"><h1>Meow-Fest 2012</h1></div>
+			
+			<div id="hero">
+			
+			<!-- Attaches the script to the UL -->
+			<script type="text/javascript">
+			$(document).ready(function(){
+			$('.bxslider').bxSlider();
+			});
+			</script>
+			
+				<ul class="bxslider">
+					<li><img src="images/scudamore.gif" /></li>
+					<li><img src="images/scudamore1.gif" /></li>
+			      </ul>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="index.html">SHOWS</a></li>
+					<li><a href="index.html">MAP</a></li>
+					<li><a href="index.html">HELP</a></li>
+				</ul>
+			</nav>
+			
+			<article id="content">
+				<p>Bacon ipsum dolor sit amet tail boudin ham, kielbasa strip steak frankfurter capicola salami t-bone corned beef. Sirloin swine beef ribs brisket leberkas salami pig andouille. Pancetta pork meatball, frankfurter sirloin venison pork chop leberkas rump shank t-bone drumstick. Pig short ribs cow pancetta. Ball tip kielbasa jowl swine rump.</p>
+
+				<p>Brisket doner sausage shoulder jerky, ham ribeye tail. Bresaola ham hock beef sirloin brisket, leberkas meatloaf. Hamburger spare ribs short loin bacon short ribs corned beef, sirloin pastrami. Chuck drumstick pork loin sirloin t-bone, ribeye flank tenderloin hamburger shankle salami. Shank pork belly kielbasa sausage capicola beef ribs. Shankle pig bresaola jerky, strip steak short ribs tail.</p>
+
+				<p>Frankfurter meatball boudin sausage, ribeye kielbasa bresaola tri-tip chuck shoulder bacon cow turkey shank. Short loin sirloin strip steak, rump ground round spare ribs pork. Turducken shank meatloaf tenderloin, t-bone andouille boudin sirloin doner drumstick strip steak. Tail bresaola ham hock spare ribs leberkas sausage. Frankfurter boudin shankle shank rump strip steak ribeye meatball sirloin flank shoulder t-bone jowl pork loin spare ribs. Ham turkey corned beef sausage venison t-bone leberkas andouille short loin brisket. Pastrami doner swine meatloaf corned beef prosciutto chicken beef ribs strip steak.</p>
+			</article>
+		</div>
+		
+		
+		
+		
+	</body>
+
+</html>

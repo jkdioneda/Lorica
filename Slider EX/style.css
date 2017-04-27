@@ -1,0 +1,183 @@
+html,body {
+	font-size:62.5%;
+	line-height:62.5%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height:100%;
+}
+
+/* this makes your images automatically size to the width of your divs */
+img {
+	width:100%;
+	height:auto;
+}
+
+#wrapper {
+	position:relative;
+	width:95%;
+	max-width:1000px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+#hero {
+	position:relative;
+	width:100%;
+}
+
+#content {
+	position:relative;
+	width:100%;
+}
+
+#logo {
+	position:relative;
+	width:100%;
+	background-color:red;
+}
+
+nav {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+
+ul {
+	list-style:none;
+	margin:0em;
+	padding:0em;
+	width:100%;
+	overflow:hidden;
+	
+}
+
+li {
+	width:25%;
+	background-color:black;
+	float:left;
+	text-align:center;
+}
+
+li:hover {
+	background-color:red;
+}
+
+li a {
+	font-size: 2.5em;
+	font-weight: normal;    
+	color: #ffffff;
+	font-family: verdana, helvetica, arial, sans-serif;
+	line-height: 2.5em;
+	margin-top:0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+}
+
+
+/* Text */
+
+p {
+	font-size: 2.5em;
+	font-weight: normal;    
+	color: #190009;
+	font-family: "times new roman", times, georgia, serif;
+	line-height: 2.0em;
+	margin-top:0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: left;
+}
+
+
+/* Headers */
+
+h1 {
+	
+	font-size: 5.0em;
+	font-weight: bold;  
+	color: #ffffff;
+	font-family: verdana, helvetica, arial, sans-serif;
+	line-height: 3.0em;
+	padding-top: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	text-align: center;
+	
+}
+
+h2 {
+	
+	font-size: 2.5em;
+	font-weight: normal;
+	font-style: italic; 
+	text-decoration:underline; 
+	color: #190009;
+	font-family: "times new roman", times, georgia, serif;
+	line-height: 0em;
+	padding-top: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	text-align: left;
+	
+}
+
+h3 {
+	
+	font-size: 1.5em;
+	font-weight: bold;  
+	color: #190009;
+	font-family: "times new roman", times, georgia, serif;
+	line-height: 0em;
+	padding-top: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	text-align: left;
+	
+	
+}
+
+
+
+
+/* Links */
+
+a.bodylink {
+	font-size: 2.5em;
+	font-weight: normal;    
+	color: #190009;
+	font-family: "times new roman", times, georgia, serif;
+	text-align: left;
+	text-decoration: underline;
+	
+	
+	
+}
+
+
+a.bodylink:hover {
+	text-decoration: none;
+}
+
+/* Turns off link borders on Firefox */
+a:active, a:focus {outline: 0;}
+
+
+ 
